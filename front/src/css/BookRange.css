@@ -1,0 +1,17 @@
+#time{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 14%;
+}
+
+#bookManage{
+    width: 100px;
+    height: 110px;
+}
+
+#table{
+    width: 50%;
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 25%;
+}

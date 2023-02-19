@@ -1,0 +1,42 @@
+#logo{
+    margin-top: 15px;
+    margin-left: 12%;
+    position: absolute;
+    height: 80%;
+    width: 25%;
+    float: left;
+
+}
+.upBack{
+    border-bottom: 1px solid gainsboro;
+    position: absolute;
+    width: 100%;
+    height:150px;
+}
+.e2{
+    float: right;
+    position: relative;
+    margin-right: 17%;
+    margin-top: 70px;
+}
+.e2 li{
+    position: relative;
+    float: left;
+    border-left: 1px solid #f1ecec;
+    list-style: none;
+    margin: 0 0 0 17px;
+    padding: 0 0 0 22px;
+}
+.e2 li:first-child{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.e2 li a{
+    color:#0c0909;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 18px;
+}

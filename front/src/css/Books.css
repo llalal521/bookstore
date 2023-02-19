@@ -1,0 +1,376 @@
+.Books{
+    position: absolute;
+    width: 60%;
+    top: 80%;
+    margin-left: 21%;
+}
+.BookList{
+    list-style: none;
+    width: 100%;
+}
+.Book{
+    width: 23%;
+    float: left;
+    margin-left: 2px;
+    margin-top: 10px;
+    border: 1px solid #f1ecec;
+}
+
+#Bookimg{
+    width: 90%;
+    height: 50%;
+    margin-top: 1px;
+}
+#table{
+    width: 50%;
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 25%;
+}
+#manageBook{
+    width: 100px;
+    height: 110px;
+}
+#add{
+    margin-top: 14.5%;
+    margin-left: 25%;
+    position: absolute;
+}
+.appear{
+    display: block;
+}
+
+.disappear{
+    display:none;
+}
+#login-wrapper
+{
+    margin: 0 auto;
+    position: relative;
+    z-index:2 ;
+}
+
+#login-logo-box a
+{
+    display: block;
+    padding:0 0 0 0;
+    margin: 0 0 0 0;
+    width: 277px;
+    height: 91px;
+    color:white;
+    text-indent: -9999px;
+}
+
+#login-logo-box a:hover
+{
+    color:white;
+}
+
+#login-logo-box a:visited
+{
+    color:white;
+}
+
+#login-logo-box a:active
+{
+    color:white;
+}
+
+.login-header-holder
+{
+    margin: 0 auto;
+    padding:0 28px 0px 28px;
+    overflow: hidden;
+}
+
+#container
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#login-form
+{
+    background-color: white;
+    width: 300px;
+    height: 260px;
+    padding: 10px 50px 20px 10px;
+    margin-top: 200px;
+    margin-right:220px;
+    position: relative;
+    float:right;
+    background-color: rgba(255,255,255,0.75);
+    box-shadow: 0 0 20px #4E4E4E;
+    position: relative;
+    z-index: 1;
+}
+
+.login-title
+{
+    height: 27px;
+    font-weight: bold;
+    font-size:20px;
+    padding-top: 20px;
+    margin-bottom: 14px;
+    text-indent : 26px;
+}
+
+.form-input
+{
+    box-sizing:border-box;
+    width: 100%;
+    margin-bottom: 14px;
+    padding:11px 11px 11px 42px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    display: block;
+    font-size: 16px;
+    background-color: rgba(255,255,255,0.90);
+
+}
+
+.input-control
+{
+    position: relative;
+    left: 15px;
+}
+
+.icon-account
+{
+    display: inline-block;
+}
+
+.icon-password
+{
+    display: inline-block;
+    background-position: -48px 0;
+}
+
+.login-button-box button
+{
+    color: #ffffff;
+    font-size: 16px;
+    height: 40px;
+    border: 1px solid #39cccc;
+    background-image: linear-gradient(#39cccc,#00b4b4);
+    border-radius: 4px;
+    width: 100%;
+    position:relative;
+    left: 15px;
+}
+
+.login-button-box button:hover{
+    background-image: linear-gradient(#00a8a8,#00a8a8);
+}
+
+.login-button-box button:active{
+    background-image: linear-gradient(#00a8a8,#00a8a8);
+}
+
+.login-action
+{
+    margin-top: 20px;
+    position: relative;
+    left: 15px;
+}
+
+.login-action a
+{
+    text-decoration: none;
+    color:#4E4E4E;
+}
+
+.login-action a:hover
+{
+    font-weight:bold;
+}
+
+.pull-right
+{
+    float: right;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 3;
+
+}
+
+#register-holder
+{
+    position: fixed;
+    left:50%;
+    top:100px;
+    font-size:14px;
+    width:300px;
+    height: 300px;
+    z-index:4;
+}
+
+#register-form
+{
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    padding: 10px 40px 10px 10px;
+    margin-top: 0px;
+    margin-right:100px;
+    float:right;
+    background-color: rgba(255,255,255,0.75);
+    box-shadow: 0 0 20px #4E4E4E;
+    position: relative;
+
+}
+
+#reg-title
+{
+    height: 27px;
+    font-weight: bold;
+    font-size:16px;
+    margin-bottom: 12px;
+    text-indent : 26px;
+}
+
+#register-form>.input-control>.form-input
+{
+    box-sizing:border-box;
+    width: 100%;
+    margin-bottom: 6px;
+    padding:2px 3px 2px 2px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    display: block;
+    font-size: 16px;
+    background-color: rgba(255,255,255,0.90);
+
+}
+
+#register-form>.input-control
+{
+    position: relative;
+    left: 15px;
+}
+
+#register-form>.input-control-captcha
+{
+    position: relative;
+    left: 15px;
+}
+
+.input-control-captcha>.form-input
+{
+    box-sizing:border-box;
+    width: 216px;
+    margin-bottom: 6px;
+    padding:2px 6px 2px 2px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    display: inline-block;
+    font-size: 16px;
+    background-color: rgba(255,255,255,0.90);
+}
+
+#get-captcha
+{
+    display: inline-block;
+    color: white;
+    background-image: linear-gradient(#39cccc,#00b4b4);
+    border-radius: 3px;
+    height: 24px;
+    border: 0px;
+    outline:none
+}
+
+#register-form>.input-control-captcha>#get-captcha:hover
+{
+    background-image: linear-gradient(#00a8a8,#00a8a8);
+}
+
+#register-form>.input-control-captcha>#get-captcha:active
+{
+    background-image: linear-gradient(#00a8a8,#00a8a8);
+}
+
+.register-button-box-holder
+{
+    width: 380px;
+    margin-top:15px;
+}
+
+.register-button-box
+{
+    width: 250px;
+    margin:0 auto;
+}
+
+
+.register-button-box>.register-button
+{
+    color:white;
+    font-size: 16px;
+    height: 40px;
+    border: 1px solid #0579e6;
+    background-color: rgba(5, 121, 230,1);
+    border-radius: 4px;
+    width: 80px;
+    margin:0 auto;
+    outline:none
+}
+
+.register-button-box>.register-button:hover{
+    background-color: rgba(5, 121, 230,0.90);
+}
+
+.register-button-box>.register-button:active{
+    background-color: rgba(5, 121, 230,0.80);
+}
+
+
+.register-button-box>.cancel-button
+{
+    color:white;
+    font-size: 16px;
+    height: 40px;
+    border: 1px solid rgba(240,33,33,1);
+    background-color: rgba(240,33,33,1);
+    margin-left: 30px;
+    border-radius: 4px;
+    width: 80px;
+    height: 40px;
+    outline:none
+}
+
+.register-button-box>.cancel-button:hover{
+    background-color: rgba(255, 0, 0,0.90);
+}
+
+.register-button-box>.cancel-button:active{
+    background-color: rgba(255, 0, 0,0.80);
+}
+.input-control>.inf,.input-control-captcha>.inf
+{
+    margin-top:0;
+    margin-bottom: 0
+
+}
+
+.appear{
+    display: block;
+}
+
+.disappear{
+    display:none;
+}
+
+#sexual {
+    margin-left: 15px;
+}
+.page{
+    margin-top: 70%;
+    margin-left: 50%;
+}

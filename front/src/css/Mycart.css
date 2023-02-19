@@ -1,0 +1,100 @@
+
+.cart{
+    position: absolute;
+    width:800px;
+    border: 1px solid #F88020;
+    border-radius: 18px;
+    margin-left: 300px;
+    margin-top: 15%;
+    text-align: center;
+}
+.cart .good{
+    width: 100%;
+    background-color: #F88020;
+    height:55px;
+    font-size: 22px;
+    color:white;
+    line-height: 55px;
+    font-weight: 200;
+    border-radius: 18px 18px 0 0;
+    margin-bottom: 20px;
+
+}
+
+.cart div{
+    margin-bottom: 20px;
+}
+
+#books{
+    width: 240px;
+}
+
+#price{
+    width: 160px;
+}
+
+#num{
+    width: 160px;
+}
+
+#ope{
+    width: 240px;
+}
+
+.car .good table{
+    width:100%;
+}
+.cart .goods{
+    height:45px;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.cart .goods table{
+    width:100%;
+}
+.cart .goods table .btn1{
+    width: 70px;
+    height:28px;
+    border: 2px solid #46B3E6;
+    background-color: white;
+    color: #46B3E6;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.cart .goods table button:hover{
+    background-color: #46B3E6;
+    color: white;
+}
+.cart .goods1{
+    margin-top: 10px;
+
+    background-color: #f1ecec;
+    height:50px;
+    font-size: 19px;
+    color:white;
+    line-height: 50px;
+    font-weight: 200;
+    border-radius:0 0 10px 10px ;
+}
+.cart .goods2{
+    border-top: 1px solid #F88020;
+    margin-top: 10px;
+    height:50px;
+    font-size: 19px;
+    line-height: 50px;
+    font-weight: 200;
+    border-radius:0 0 10px 10px ;
+}
+.cart .goods1 table{
+
+    width:100%;
+}
+
+.book1 td{
+    border: #e2e2e2 1px solid;
+}
+
+.sum td{
+    border-bottom: #f1ecec 1px solid;
+}

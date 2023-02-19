@@ -1,0 +1,55 @@
+#bg{
+    background-image: url("../png/bg.png");
+    background-repeat: no-repeat;
+    background-size:100%, 100%;
+    background-position: 0px -50px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#login-box{
+    background-color: #00000068;
+    color: black;
+    border-radius: 13px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 80px;
+    width: 350px;
+    height: 400px;
+}
+
+#login-box h1{
+    padding-top: 30px;
+    color: #ffffff;
+}
+
+#login-box .input-box{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+#login-box button{
+    line-height:30px;
+    margin-top: 17px;
+    width: 200px;
+    height: 30px;
+    border-radius:13px ;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    color: #FFFFFF;
+}
+
+#login-box button:hover{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+#login-box .input-box i{
+    color: #FFFFFF;
+}

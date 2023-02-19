@@ -1,0 +1,83 @@
+.Bookimg{
+    height: 50%;
+    width: 30%;
+    margin-top: 16%;
+    margin-left: 22%;
+    float: left;
+    border: #f1ecec 1px solid;
+}
+#card{
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    margin-left: 55%;
+    margin-top: 16%;
+}
+
+#card ul{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#card ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#card1{
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    margin-left: 30%;
+    margin-top: 16%;
+}
+
+#card1 ul{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#card1 ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#pay{
+    position: absolute;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+#cart{
+    position: absolute;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 50%;
+}
+
+.addEditComp
+{
+
+    padding: 15px;
+    width: 220px;
+    border: #0a0507 1px solid;
+    background: #ffffff;
+    position: fixed;
+    left:calc(50% - 121px);
+    top:100px;
+    z-index: 4;
+    box-shadow: 0 0 10px #4E4E4E;
+}
+
+.isvisible
+{
+    display: block;
+}
+
+.invisible
+{
+    display: none;
+}
